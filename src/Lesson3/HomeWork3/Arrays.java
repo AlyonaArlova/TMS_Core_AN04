@@ -39,15 +39,13 @@ public class Arrays {
     }
 
     private static void taskNumber3() {
-        // [0; 20]
+
         int n = 15;
         int[] arr1 = new int[n];
         for (int i = 0; i < n; ++i) {
             arr1[i] = new Random().nextInt(21);
         }
-        // при условии что n > 1
-        // 1 2 5 10 8 6
-        // boolean переменные называют флагами
+
         boolean isUnique = true;
         for (int i = 0; i < arr1.length; ++i) {
             if (!isUnique) {
